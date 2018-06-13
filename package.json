@@ -1,0 +1,9 @@
+{
+  "name": "vue-fbapi",
+  "version": "1.0.0",
+  "description": "simple fbapi integration with vuejsv2",
+  "main": "index.js",
+  "repository": "https://github.com/kyuumeitai/vue-fbapi.git",
+  "author": "Álex Acuña Viera <kyuumeitai@gmail.com>",
+  "license": "MIT"
+}
