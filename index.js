@@ -13,10 +13,11 @@
     window.fbAsyncInit = function onSDKInit() {
       FB.init(options)
       FB.AppEvents.logPageView()
-      Vue.FB = FB
+      console.log(FB);
+      Vue.prototype.$FB = FB
       window.dispatchEvent(new Event('fb-sdk-ready'))
     }
-    Vue.FB = undefined
+
   }
 
   if (typeof exports === 'object') {
