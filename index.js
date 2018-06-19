@@ -7,13 +7,11 @@
       js.id = id
       js.src = "//connect.facebook.net/en_US/sdk.js"
       fjs.parentNode.insertBefore(js, fjs)
-      console.log('setting fb sdk')
     }(document, 'script', 'facebook-jssdk'))
 
     window.fbAsyncInit = function onSDKInit() {
       FB.init(options)
       FB.AppEvents.logPageView()
-      console.log(FB);
       Vue.prototype.$FB = FB
       window.dispatchEvent(new Event('fb-sdk-ready'))
     }
