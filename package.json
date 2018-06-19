@@ -1,6 +1,6 @@
 {
   "name": "vue-fbapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple fbapi integration with vuejsv2",
   "main": "index.js",
   "repository": "https://github.com/kyuumeitai/vue-fbapi.git",
